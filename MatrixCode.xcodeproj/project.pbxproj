@@ -13,6 +13,8 @@
 		4C56CE6F28B8DAD4001A5745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C56CE6D28B8DAD4001A5745 /* Main.storyboard */; };
 		4C56CE7128B8DAD6001A5745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C56CE7028B8DAD6001A5745 /* Assets.xcassets */; };
 		4C56CE7428B8DAD6001A5745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C56CE7228B8DAD6001A5745 /* LaunchScreen.storyboard */; };
+		4C56CE7E28B8DD7A001A5745 /* Mtatrix.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C56CE7D28B8DD7A001A5745 /* Mtatrix.gif */; };
+		4C56CE8028B8E00A001A5745 /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C56CE7F28B8E00A001A5745 /* gifLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4C56CE7028B8DAD6001A5745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C56CE7328B8DAD6001A5745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C56CE7528B8DAD6001A5745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C56CE7D28B8DD7A001A5745 /* Mtatrix.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Mtatrix.gif; sourceTree = "<group>"; };
+		4C56CE7F28B8E00A001A5745 /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				4C56CE6728B8DAD4001A5745 /* AppDelegate.swift */,
 				4C56CE6928B8DAD4001A5745 /* SceneDelegate.swift */,
 				4C56CE6B28B8DAD4001A5745 /* ViewController.swift */,
+				4C56CE7F28B8E00A001A5745 /* gifLoader.swift */,
+				4C56CE7D28B8DD7A001A5745 /* Mtatrix.gif */,
 				4C56CE6D28B8DAD4001A5745 /* Main.storyboard */,
 				4C56CE7028B8DAD6001A5745 /* Assets.xcassets */,
 				4C56CE7228B8DAD6001A5745 /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C56CE7E28B8DD7A001A5745 /* Mtatrix.gif in Resources */,
 				4C56CE7428B8DAD6001A5745 /* LaunchScreen.storyboard in Resources */,
 				4C56CE7128B8DAD6001A5745 /* Assets.xcassets in Resources */,
 				4C56CE6F28B8DAD4001A5745 /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 				4C56CE6C28B8DAD4001A5745 /* ViewController.swift in Sources */,
 				4C56CE6828B8DAD4001A5745 /* AppDelegate.swift in Sources */,
 				4C56CE6A28B8DAD4001A5745 /* SceneDelegate.swift in Sources */,
+				4C56CE8028B8E00A001A5745 /* gifLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
